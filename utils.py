@@ -1,0 +1,29 @@
+GRID_SIZE = 10
+CELL_SIZE = 40
+WINDOW_SIZE = GRID_SIZE * CELL_SIZE
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+GRAY = (128, 128, 128)
+
+UP = 0
+RIGHT = 1
+DOWN = 2
+LEFT = 3
+
+EMPTY = 0
+WALL = 1
+BODY = 2
+GREEN_APPLE = 3
+RED_APPLE = 4
+
+CHAR_MAP = {
+    EMPTY: '0',
+    WALL: 'W',
+    BODY: 'S',
+    GREEN_APPLE: 'G',
+    RED_APPLE: 'R'
+}
